@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
 env:
-  IMAGE_NAME: Mqtt-Broker
+  IMAGE_NAME: particula-mqtt-broker
 jobs:
 
   build:
@@ -19,7 +19,7 @@ jobs:
       with:
         username: "${{ github.actor }}"
         password: "${{ secrets.GITHUB_TOKEN }}"
-        image_name: vives-projectwerk-2-2020/back-end/particula-mqtt-broker
+        image_name: vives-projectwerk-2-2020/mqtt-broker/particula-mqtt-broker
         image_tag: master
         registry: docker.pkg.github.com
         
