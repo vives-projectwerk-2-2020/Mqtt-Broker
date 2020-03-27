@@ -4,5 +4,5 @@ COPY package*.json /
 RUN npm install
 COPY . .
 
-EXPOSE 1234
+EXPOSE 1883
 CMD ["node", "broker.js"]

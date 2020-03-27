@@ -1,5 +1,5 @@
 var mosca = require('mosca')
-var settings = {port:1234,
+var settings = {port:1883,
                 url :'${DOMAIN}'}
 
 
