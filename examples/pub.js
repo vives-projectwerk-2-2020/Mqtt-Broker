@@ -1,5 +1,5 @@
 var mqtt = require('mqtt')
-var client = mqtt.connect('mqtt://localhost:1234');
+var client = mqtt.connect('mqtt://${Domain}:1234');
 var topic = 'test';
 
 var message = 'hello world';
