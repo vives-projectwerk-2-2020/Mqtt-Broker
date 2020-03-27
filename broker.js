@@ -1,6 +1,6 @@
 var mosca = require('mosca')
 var settings = {port:1234,
-                host:'${Domain}'}
+                host:'${DOMAIN}'}
 
 
 var broker = new mosca.Server(settings)
